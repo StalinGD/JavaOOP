@@ -1,4 +1,5 @@
 {
     "Name": "Foo",
-    "Version": "1.0.0.1"
+    "Version": "1.0.1.0",
+    "TestValue": 1921
 }
