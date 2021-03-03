@@ -4,8 +4,8 @@ public class Primes
     // Точка входа
     public static void main(String[] args)
     {
-        int from = 2;
-        int to = 100;
+        int from = 50;
+        int to = 102;
         for (int i = from; i <= to; i++)
         {
             if (isPrime(i))

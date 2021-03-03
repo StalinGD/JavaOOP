@@ -21,9 +21,6 @@ class Main
         tasks.add(()->bomb("Some bOmB here"));
         tasks.add(()->sameAscii("AA", "B@"));
 
-
-
-
         for (Supplier<Object> task : tasks)
         {
             System.out.println(task.get());
